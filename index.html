@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>مدیریت کارهای روزانه</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="app-header">
+        <h1>کارهای روزانه</h1>
+        <p id="stats" class="stats"></p>
+      </header>
+
+      <form id="task-form" class="card form" novalidate>
+        <label for="title-input">عنوان وظیفه</label>
+        <input
+          type="text"
+          id="title-input"
+          placeholder="مثلاً: خرید نان"
+          maxlength="100"
+          autocomplete="off"
+        />
+
+        <label for="description-input">توضیحات (اختیاری)</label>
+        <textarea
+          id="description-input"
+          rows="2"
+          placeholder="جزئیات بیشتر..."
+          maxlength="300"
+        ></textarea>
+
+        <p id="form-error" class="error" hidden></p>
+        <button type="submit" class="btn btn-primary">افزودن وظیفه</button>
+      </form>
+
+      <nav class="filters" aria-label="فیلتر وظایف">
+        <button class="filter-btn active" data-filter="all">همه</button>
+        <button class="filter-btn" data-filter="active">انجام‌نشده</button>
+        <button class="filter-btn" data-filter="completed">انجام‌شده</button>
+      </nav>
+
+      <ul id="task-list" class="task-list"></ul>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

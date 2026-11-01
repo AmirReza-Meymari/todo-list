@@ -1,2 +1,26 @@
-# todo-list
-A simple, modern, fully Persian (RTL) To-Do List web app built with HTML, CSS, and vanilla JavaScript, with LocalStorage persistence.
+# مدیریت کارهای روزانه (To-Do List)
+
+یک وب‌اپلیکیشن ساده و کاملاً فارسی برای مدیریت کارهای روزانه، ساخته‌شده با HTML، CSS و JavaScript خالص.
+
+## امکانات
+
+- افزودن وظیفه با عنوان و توضیحات اختیاری
+- علامت‌گذاری، ویرایش و حذف وظایف
+- فیلتر: همه / انجام‌نشده / انجام‌شده
+- نمایش تعداد کل وظایف و باقی‌مانده
+- ذخیره‌ی خودکار در LocalStorage
+- طراحی راست‌چین و واکنش‌گرا
+
+## اجرای پروژه
+
+فایل `index.html` را در مرورگر باز کنید. نیازی به نصب چیزی نیست.
+
+## فناوری‌ها
+
+HTML5 · CSS3 · JavaScript (Vanilla) · LocalStorage
+
+## ساختار فایل‌ها
+
+- `index.html` : ساختار صفحه
+- `style.css` : ظاهر و استایل
+- `script.js` : منطق برنامه
