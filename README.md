@@ -1,26 +1,30 @@
-# مدیریت کارهای روزانه (To-Do List)
+Daily Task Manager (To-Do List)
 
-یک وب‌اپلیکیشن ساده و کاملاً فارسی برای مدیریت کارهای روزانه، ساخته‌شده با HTML، CSS و JavaScript خالص.
+A simple, modern, fully Persian (RTL) web app for managing daily tasks, built with HTML, CSS, and vanilla JavaScript.
 
-## امکانات
+Features
 
-- افزودن وظیفه با عنوان و توضیحات اختیاری
-- علامت‌گذاری، ویرایش و حذف وظایف
-- فیلتر: همه / انجام‌نشده / انجام‌شده
-- نمایش تعداد کل وظایف و باقی‌مانده
-- ذخیره‌ی خودکار در LocalStorage
-- طراحی راست‌چین و واکنش‌گرا
+- Add tasks with a title and an optional description
+- Mark tasks as done, edit them, and delete them
+- Filter tasks: All / Active / Completed
+- See the total number of tasks and how many remain
+- Automatic saving with LocalStorage (data is restored when you reopen the browser)
+- Right-to-left, responsive design for desktop and mobile
 
-## اجرای پروژه
+Getting Started
 
-فایل `index.html` را در مرورگر باز کنید. نیازی به نصب چیزی نیست.
+Open `index.html` in your browser. No installation is required.
 
-## فناوری‌ها
+Tech Stack
 
 HTML5 · CSS3 · JavaScript (Vanilla) · LocalStorage
 
-## ساختار فایل‌ها
+Project Structure
 
-- `index.html` : ساختار صفحه
-- `style.css` : ظاهر و استایل
-- `script.js` : منطق برنامه
+- `index.html`: page structure
+- `style.css`: styling and layout
+- `script.js`: application logic
+
+## License
+
+This project is open source and free to use for learning purposes.
